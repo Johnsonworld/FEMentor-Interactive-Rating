@@ -97,17 +97,20 @@ body {
 
 p {
     color: hsl(217, 12%, 63%);
+    line-height: 1.5;
 }
 
 h1 {
     color:hsl(0, 0%, 100%);
     font-size: 1.75rem;
+    margin: 1.5rem 0;
 }
 
 h2 {
     color:hsl(0, 0%, 100%);
     font-size: 1.75rem;
     text-align: center;
+    margin: 1.5rem 0;
 }
 
 .card {
