@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <main class="card">
+  <main class="card" id="main-card">
     <div id="star-circle"><img src="images/icon-star.svg" alt="Icon of a star in a circle"></div>
 
 
@@ -47,13 +47,14 @@
 
     </div>
 
-    <button type="button" id="submit-button">SUBMIT</button> <!-- Will change this to type of submit later.-->
+    <button type="button" id="submit-button" onclick="submitToThanks()">SUBMIT</button>
+    <!-- Will change this to type of submit later.-->
   </main>
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-  <div id="state-start" class="card">
+  <div id="state-start" class="card" style="display:none">
 
     <img src="images/illustration-thank-you.svg" alt="Thank you image" id="receipt">
 
