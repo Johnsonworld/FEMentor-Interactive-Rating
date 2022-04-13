@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="app.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -12,59 +14,66 @@
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
- 
-</head>
-<body>
-  <main class="card" >
-    <div id="star-circle"><img src="images/icon-star.svg" alt="Icon of a star in a circle"></div>
- 
 
-  <!-- Rating state start -->
+</head>
+
+<body>
+  <main class="card">
+    <div id="star-circle"><img src="images/icon-star.svg" alt="Icon of a star in a circle"></div>
+
+
+    <!-- Rating state start -->
 
     <h1>How did we do?</h1>
 
-    <p> Please let us know how we did with your support request. All feedback is appreciated 
-    to help us improve our offering!
+    <p> Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!
     </p>
 
-    <div id="number-of-stars" >
-      
-        <button type="button" class="select-stars" >1</button>
-        <button type="button" class="select-stars" >2</button>
-        <button type="button" class="select-stars" >3</button>
-        <button type="button" class="select-stars" >4</button>
-        <button type="button" class="select-stars" >5</button>
-     
+    <div id="number-of-stars">
+
+      <button type="button" class="select-stars" id="btn1" value="1"
+        onClick="reply_click(this.id,this.value)">1</button>
+      <button type="button" class="select-stars" id="btn2" value="2"
+        onClick="reply_click(this.id,this.value)">2</button>
+      <button type="button" class="select-stars" id="btn3" value="3"
+        onClick="reply_click(this.id,this.value)">3</button>
+      <button type="button" class="select-stars" id="btn4" value="4"
+        onClick="reply_click(this.id,this.value)">4</button>
+      <button type="button" class="select-stars" id="btn5" value="5"
+        onClick="reply_click(this.id,this.value)">5</button>
+
 
 
     </div>
-  
+
     <button type="button" id="submit-button">SUBMIT</button> <!-- Will change this to type of submit later.-->
   </main>
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-<div id="state-start" class="card" >
+  <div id="state-start" class="card">
 
-  <img src="images/illustration-thank-you.svg" alt="Thank you image" id="receipt">
+    <img src="images/illustration-thank-you.svg" alt="Thank you image" id="receipt">
 
-  <div id="qty-selected">You selected <!-- Add rating here --> out of 5</div>
+    <div id="qty-selected">You selected <span id="selectedRating"></span> out of 5</div>
 
-<h2>Thank you!</h2>
+    <h2>Thank you!</h2>
 
-<p id="in-touch">We appreciate you taking the time to give a rating. If you ever need more support,
-don’t hesitate to get in touch!</p> 
-</div>
+    <p id="in-touch">We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!</p>
+  </div>
 
   <!-- Thank you state end -->
 
-<footer>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Johnsonworld</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Johnsonworld</a>.
+    </div>
   </footer>
   <script src="app.js"></script>
 </body>
+
 </html>

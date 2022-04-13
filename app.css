@@ -55,6 +55,7 @@ body {
     letter-spacing: .15em;
     font-size: .75rem;
     cursor: pointer;
+    border: 0;
 }
 
 #submit-button:hover {
@@ -131,6 +132,7 @@ h2 {
     padding: 1.5rem;
     background: radial-gradient(circle at top, hsla(213, 20%, 18%,1) 10%, hsla(213, 19%, 18%,.2) 100%, hsla(213, 20%, 18%,1) 10%);
     border-radius: 6%;
+    margin: 1rem;
    
 }
 
@@ -172,4 +174,14 @@ footer {
     
 } */
     
+.clickedButton {
+    background-color:hsl(217, 12%, 63%);
+    border-color:hsl(217, 12%, 63%);
+    color:hsl(0, 0%, 100%);
+}
 
+.originalButton {
+    border-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+}
