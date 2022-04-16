@@ -27,10 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile Rating](./mobile_rating_screenshot.jpg)
-![Mobile Thanks](./mobile_thanks_screenshot.jpg)
-![Desktop Rating](./desktop_rating_screenshot.jpg)
-![Desktop Thanks](./desktop_thanks_screenshot.jpg)
+![Mobile Rating](.images/mobile_rating_screenshot.jpg)
+![Mobile Thanks](.images/mobile_thanks_screenshot.jpg)
+![Desktop Rating](.images/desktop_rating_screenshot.jpg)
+![Desktop Thanks](.images/desktop_thanks_screenshot.jpg)
 
 ### Links
 
