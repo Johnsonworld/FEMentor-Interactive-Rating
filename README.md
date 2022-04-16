@@ -26,10 +26,7 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
-![](./images/completed-screenshot.jpg)
 
-![](./images/mobile_rating_screenshot.jpg)
-![](./images/mobile_thanks_screenshot.jpg)
 ![](./images/desktop_rating_screenshot.jpg)
 ![](./images/desktop_thanks_screenshot.jpg)
 
