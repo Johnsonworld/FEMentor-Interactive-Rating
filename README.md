@@ -26,11 +26,12 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
+![](./images/completed-screenshot.jpg)
 
-![Mobile Rating](.images/mobile_rating_screenshot.jpg)
-![Mobile Thanks](.images/mobile_thanks_screenshot.jpg)
-![Desktop Rating](.images/desktop_rating_screenshot.jpg)
-![Desktop Thanks](.images/desktop_thanks_screenshot.jpg)
+![](./images/mobile_rating_screenshot.jpg)
+![](./images/mobile_thanks_screenshot.jpg)
+![](./images/desktop_rating_screenshot.jpg)
+![](./images/desktop_thanks_screenshot.jpg)
 
 ### Links
 
