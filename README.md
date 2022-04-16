@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-[Solution URL here](https://github.com/Johnsonworld/FEMentor-Interactive-Rating)
-[Live site URL:](https://johnsonworld.github.io/FEMentor-Interactive-Rating/)
+- Solution URL: [Johnsonworld Interactive-Rating Solution](https://github.com/Johnsonworld/FEMentor-Interactive-Rating)
+- Live Site URL: [Johnsonworld Interactive-Rating Live Site](https://johnsonworld.github.io/FEMentor-Interactive-Rating)
 
 ## My process
 
