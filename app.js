@@ -22,4 +22,17 @@ document.getElementById("submit-button").onclick = function () {
 }
 
 
+document.getElementById("close_thank_you").onclick = function () {
+    
+    document.getElementById("state-start").style.display = "none";
+    document.getElementById("main-card").style.display = "unset";
+    const btns = document.querySelectorAll('.select-stars');
+    btns.forEach((btn) => {
+        btn.classList.remove("active"); 
+    });
+    
+    
+    // alert("I hear you");
+}
+
 
